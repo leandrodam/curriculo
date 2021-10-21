@@ -1,0 +1,198 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Curriculo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper]{curriculo}
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\profilepic{leandro.jpg} % Profile picture
+
+\cvname{Leandro Damasceno Alves} % Your name
+\cvjobtitle{Engenheiro de Software} % Job title/career
+
+\cvdate{38 anos} % Date of birth
+\cvaddress{Brasil - Bahia - Salvador} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{\href{https://wa.me/5571988977338}{+55 (71) 98897-7338}} % Phone number
+\cvlinkedin{\href{https://www.linkedin.com/in/leandroalves}{in/leandroalves}} % LinkedIn
+\cvgithub{\href{https://www.github.com/leandrodam}{leandrodam}} % Github
+\cvmail{\href{mailto:leandro.dalves@gmail.com}{leandro.dalves@gmail.com}} % Email address
+
+%----------------------------------------------------------------------------------------
+%	QUEM SOU EU
+%----------------------------------------------------------------------------------------
+
+\sobre{
+    Bacharel em Informática pela UCSal e MFA em Design Digital pelo Instituto Infnet-RJ. \\
+    Apaixonado por engenharia de software e com vasta experiência profissional no desenvolvimento de aplicações web.
+}
+
+%----------------------------------------------------------------------------------------
+%	FORMAÇÃO
+%----------------------------------------------------------------------------------------
+
+\formacao{
+    \begin{tabular}{p{0.4\textwidth}|p{0.6\textwidth}}
+        \cvformacao{Infnet}{Pós-graduação}{Design Digital}{2010} \\
+        \cvformacao{UCSal}{Graduação}{Informática}{2006} \\
+    \end{tabular}
+    \smallskip
+}
+
+%----------------------------------------------------------------------------------------
+%	IDIOMAS
+%----------------------------------------------------------------------------------------
+
+\idiomas{
+    \begin{tabular}{p{0.4\textwidth}|p{0.6\textwidth}}
+        \textbf{Português} & {\phantom{x}\footnotesize Nativo} \\
+        \textbf{Inglês} & \pictofraction{\faCircle}{indigo!20}{4}{indigo!70}{1}{\tiny}
+    \end{tabular}
+}
+
+%----------------------------------------------------------------------------------------
+%	CURSOS COMPLEMENTARES
+%----------------------------------------------------------------------------------------
+
+\cursos{
+    \cvcurso{ASP.NET 5}{2021}{Microsoft Learn} \\
+    \cvcurso{AWS ECS / Fargate}{2021}{AWS Training} \\
+    \cvcurso{AWS SQS}{2021}{AWS Training} \\
+    \cvcurso{React}{2021}{ReactJS Docs} \\
+    \cvcurso{Vue 2}{2020}{School of Net} \\
+    \cvcurso{Angular 6}{2019}{Udemy} \\
+    \cvcurso{Laravel}{2018}{PRODEB} \\
+    \cvcurso{Métodos Ágeis}{2018}{PRODEB} \\
+    \cvcurso{Design Patterns com C\#}{2017}{Alura} \\
+    \cvcurso{Fundamentos de C\#}{2017}{Alura} \\
+    \cvcurso{Typescript}{2017}{Alura} \\
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile
+
+%----------------------------------------------------------------------------------------
+%   TITLE
+%----------------------------------------------------------------------------------------
+
+\cvtitle
+%
+%----------------------------------------------------------------------------------------
+%	OBJETIVO
+%----------------------------------------------------------------------------------------
+%
+\section{Objetivo}
+    Aprimorar meu conhecimento em engenharia de software através de novos desafios, utilizando boas práticas de programação, computação em nuvem e arquitetura moderna, adaptado ao modelo de trabalho remoto. \\
+
+%----------------------------------------------------------------------------------------
+%	LINGUAGENS E TECNOLOGIAS
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth}
+    \vspace{-\baselineskip}
+	\section{Linguagens}
+	\vspace{-1.2em}
+	\begin{barchart}{3}
+		\baritem{C\#}{70}
+		\baritem{HTML/CSS}{100}
+		\baritem{Javascript}{70}
+		\baritem{SQL}{90}
+		\baritem{Typescript}{30}
+	    \baritem{PHP}{100}
+		\baritem{Java}{30}
+	\end{barchart}
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.55\textwidth}
+    \vspace{-\baselineskip}
+	\section{Tecnologias}
+		\begin{minipage}[t]{0.45\textwidth}
+			\begin{itemize}[itemsep=0.01em,topsep=0pt,leftmargin=*]
+				\item API RESTful
+				\item AWS
+				\item Design Patterns
+				\item Clean Code
+				\item SOLID
+				\item Github CI/CD
+				\item Docker
+			\end{itemize}
+		\end{minipage}
+		\begin{minipage}[t]{0.45\textwidth}
+			\begin{itemize}[itemsep=0.01em,topsep=0pt,leftmargin=*]
+				\item ASP.NET 5
+				\item Laravel
+				\item Bootstrap
+				\item SaaS
+				\item Métodos Ágeis
+				\item Jira
+				\item React, Angular, Vue
+			\end{itemize}
+	\end{minipage}
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIÊNCIA PROFISSIONAL
+%----------------------------------------------------------------------------------------
+
+\section{Experiência Profissional}
+%
+\begin{tabular}{r|p{0.82\textwidth}}
+    \cvevent{2021--atual}{Analista de Sistemas Pleno}{\href{https://www.madeiramadeira.com.br/}{MadeiraMadeira}}
+        {Desenvolvimento e manutenção do sistema de integração com marketplaces utilizando PHP 8, AWS (EC2, SQS, ECS Fargate), Elasticsearch, NewRelic, Docker, Git e métodos ágeis.}
+    \\
+    \cvevent{2019--2021}{Analista de Sistemas Sênior}{\href{https://www.avansys.com.br/}{Avansys - ACP Group}}
+        {Desenvolvimento de sistemas em Drupal 8/Drupal Commerce, Laravel, integração com Cielo, Javascript, Bootstrap, Docker, Git e métodos ágeis.}
+    \\
+    \cvevent{2017--2019}{Analista Consultor Sênior / Consultor Técnico I}
+        {\href{https://www.solutis.com.br/}{Solutis} / \href{http://www.prodeb.gov.br/}{PRODEB}}
+        {Análise e desenvolvimento de sistemas e portais em Drupal 8, Laravel, Javascript, Bootstrap, Docker, Git e métodos ágeis.}
+    \\
+    \cvevent{2016--2017}{Projeto pessoal}{Mundo da Luna}
+        {Desenvolvimento e manutenção da loja virtual de moda feminina em Magento.}
+    \\
+    \cvevent{2010--2016}{Sócio proprietário}{Elurion}
+        {Design, desenvolvimento e manutenção de sites e sistemas em Drupal 7.}
+    \\
+    \cvevent{2009--2010}{Analista de Sistemas Pleno}{\href{https://strenna.com.br/}{Strenna Comunicação}}
+        {Desenvolvimento de sites em Drupal 6.}
+    \\
+    \cvevent{2008}{Analista de Sistemas Pleno}
+        {\href{http://educacao.salvador.ba.gov.br/}{Secretaria Municipal da Educação de Salvador}}
+        {Desenvolvimento e manutenção de sites e sistemas utilizando PHP, Delphi, Oracle e SQL Server.}
+    \\
+    \cvevent{2007}{Analista de Sistemas Pleno}
+        {\href{https://www.dds.com.br/}{DDS} / \href{https://www.vivo.com.br/}{Vivo}}
+        {Desenvolvimento e manutenção de sistemas de integração com a URA utilizando PHP, Oracle, SQL Server e PostgreSQL.}
+    \\
+    \cvevent{2004--2006}{Analista de Suporte Técnico Operacional}
+        {\href{https://atento.com/pb/}{Atento} / \href{https://www.vivo.com.br/}{Vivo}}
+        {Desenvolvimento de sistemas em PHP, C, Oracle, SQL Server e PostgreSQL. Suporte nível 1 aos equipamentos de telecomunicações Avaya.}
+    \\
+    \cvevent{2002--2005}{Diretor de Produção}{TECH Jr. - Empresa Júnior de Informática da UCSal}
+        {Membro fundador da empresa júnior de informática da UCSal. Enquanto Diretor de Produção: liderança no recrutamento de alunos, organização de treinamentos e eventos e prestação de serviços internos e externos.}
+    \\
+    \cvevent{2002}{Estagiário Programador Delphi}{EQS Tecnologia}
+        {Manutenção de sistema gerencial e frente de loja desenvolvido em Delphi.}
+    \\
+    \cvevent{2001}{Estagiário Técnico em Computadores}{Shine Computadores}
+        {Manutenção geral de computadores.}
+    \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	CURSOS COMPLEMENTARES
+%----------------------------------------------------------------------------------------
+
+\section{O que estou estudando}
+    Desenvolvimento de sistemas web com ASP.NET 5: Entity Framework, Dapper, IoC, SOLID, BDD, DDD, TDD, Multithreading Async/Await. \\
+
+\end{document} 
